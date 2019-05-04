@@ -1,0 +1,38 @@
+﻿@model IEnumerable<Asp_Mvc_Razor_Grouped_Data.ViewModel.PersonContactViewModel>
+
+@{
+    ViewBag.Title = "Person-Contact Grouped Data";
+}
+
+<br/>
+<table border="1">
+    <thead>
+        <tr>
+            <th>Person Name</th>
+            <th>Contact Number</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach(var group in Model.GroupBy(item => item.Person))
+        {
+            <tr>
+                <td style="width:200px;">
+                    @Html.Encode(group.Key.PersonName)
+                </td>
+                <td style ="width:200px;">
+                    @foreach (var item in group)
+                    {
+                        <table border="1" style="width:100%;">
+                            <tr>
+                                <td>
+                                   @Html.Encode(item.Contact.ContactNumber) 
+                                </td>
+                            </tr>
+                        </table>
+                    }     
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
