@@ -8,7 +8,7 @@ namespace Asp_Mvc_Razor_Grouped_Data
     {
         public void Configuration(IAppBuilder app)
         {
-            //ConfigureAuth(app);
+            
         }
     }
 }
