@@ -3,10 +3,10 @@ Asp_Mvc_Razor_Grouped_Data/Content/* linguist-vendored
 Asp_Mvc_Razor_Grouped_Data/Scripts/* linguist-vendored
 
 # Include the following files or folders for language renaming
-Asp_Mvc_Razor_Grouped_Data/Models/* linguist-language=ASP
+Asp_Mvc_Razor_Grouped_Data/Models/* linguist-language=CSHARP
 Asp_Mvc_Razor_Grouped_Data/Views/* linguist-language=ASP
-Asp_Mvc_Razor_Grouped_Data/Controllers/* linguist-language=ASP
-Asp_Mvc_Razor_Grouped_Data/ViewModel/* linguist-language=ASP
+Asp_Mvc_Razor_Grouped_Data/Controllers/* linguist-language=CSHARP
+Asp_Mvc_Razor_Grouped_Data/ViewModel/* linguist-language=CSHARP
 
 # Include the following files or folders for language detection
 *.sql linguist-detectable=true
