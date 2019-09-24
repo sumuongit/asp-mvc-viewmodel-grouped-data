@@ -22,7 +22,7 @@ This application is created with:
 * Visual Studio 2013
 * C# 
 * ASP.NET MVC 5
-* Entity Framework
+* Entity Framework (Database First Approach)
 * SQL Server 2012
 	
 ## Setup
