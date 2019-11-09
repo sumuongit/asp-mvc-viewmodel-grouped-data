@@ -30,9 +30,9 @@ To clone and run this repository you will need [Git](https://git-scm.com/) insta
 
 ```
 # Clone this repository
-$ git clone https://github.com/sumuongit/asp-mvc-razor-grouped-data.git
+$ git clone https://github.com/sumuongit/asp-mvc-viewmodel-grouped-data.git
 # Go into the repository
-# cd asp-mvc-razor-grouped-data
+# cd asp-mvc-viewmodel-grouped-data
 ```
 
 ## Contributing
@@ -43,4 +43,4 @@ $ git clone https://github.com/sumuongit/asp-mvc-razor-grouped-data.git
 * Submit a pull request
 
 ## License
-[MIT License](https://github.com/sumuongit/asp-mvc-razor-grouped-data/blob/master/LICENSE)
+[MIT License](https://github.com/sumuongit/asp-mvc-viewmodel-grouped-data/blob/master/LICENSE)
